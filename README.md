@@ -6,28 +6,25 @@
 
 [![Build Status](https://travis-ci.org/nanocurrency/raiblocks.svg?branch=master)](https://travis-ci.org/nanocurrency/raiblocks)
 [![Build status](https://ci.appveyor.com/api/projects/status/q66rbt2ux6apjj03/branch/master?svg=true)](https://ci.appveyor.com/project/argakiig/raiblocks/branch/master)
-### What is Nano?
+### What is Lumono?
 
 ---
 
-Nano's goal is to become _"a global currency with instantaneous transactions and zero fees over a secure, decentralized network."_
-
-We've applied the philosophy of _"do one thing and do it well"_, we are focused on building the best medium for value exchange in the world.
+Lumono is a Nano's fork which keeps LumoCash up and running while its final code ends up being developed.
 
 ---
 
-### Key Features
+### Features
 
-* Nano utilizes a novel [block-lattice](https://github.com/nanocurrency/raiblocks/wiki/Block-lattice) architecture, unlike conventional blockchains used in many other cryptocurrencies.
+* Lumono utilizes the Nano's [block-lattice](https://github.com/nanocurrency/raiblocks/wiki/Block-lattice) architecture, unlike conventional blockchains used in many other cryptocurrencies.
 * The network requires minimal resources, no high-power mining hardware, and can process high transaction throughput.
-* Offers instantaneous transactions with zero fees and unlimited scalability, making Nano an ideal solution for peer-to-peer transactions.
-* As of August 2018, the Nano network has processed over twelve million blocks with an unpruned ledger size of only 4.6GB.
+* Offers instantaneous transactions with zero fees and unlimited scalability, making Lumo an ideal solution for peer-to-peer transactions.
 
-For more information, see [Nano.org](https://nano.org/) or read the [whitepaper](https://nano.org/en/whitepaper).
+For more information, see [Nano.org](https://nano.org/).
 
 ### Guides & Documentation
 
-* [White Paper](https://nano.org/en/whitepaper)
+* [Nano White Paper](https://nano.org/en/whitepaper)
 * [Build Instructions](https://github.com/nanocurrency/raiblocks/wiki/Build-Instructions)
 * [Command Line Interface](https://github.com/nanocurrency/raiblocks/wiki/Command-line-interface)
 * [RPC Protocol](https://github.com/nanocurrency/raiblocks/wiki/RPC-protocol)
@@ -37,20 +34,20 @@ For more information, see [Nano.org](https://nano.org/) or read the [whitepaper]
 
 ### Links & Resources
 
+* [LumoCash Website](https://lumo.cash)
 * [Nano Website](https://nano.org)
-* [Nano Roadmap](https://developers.nano.org/roadmap)
-* [Discord Chat](https://chat.nano.org/)
-* [Reddit](https://reddit.com/r/nanocurrency)
-* [Medium](https://medium.com/nanocurrency)
-* [Twitter](https://twitter.com/nano)
-* [Forum](https://forum.raiblocks.net/)
+* [Discord Chat](https://discord.io/lumocash)
+* [Reddit](https://reddit.com/r/lumocash)
+* [Medium](https://medium.com/lumocash)
+* [Twitter](https://twitter.com/lumocash)
+* [Facebook](https://facebook.com/lumocash)
 * [GitHub wiki](https://github.com/nanocurrency/raiblocks/wiki)
 
 ### Want to Contribute?
 
-Please see the [contributors guide](https://github.com/nanocurrency/raiblocks/wiki/Contributing).
+Just do a Pull Request ;)
 
 ### Contact us
 
 We want to hear about any trouble, success, delight, or pain you experience when
-using Nano. Let us know by [filing an issue](https://github.com/nanocurrency/raiblocks/issues), joining us in [reddit](https://reddit.com/r/nanocurrency), or joining us in [Discord](https://chat.nano.org/).
+using Lumono. Let us know by [filing an issue](https://github.com/lumocash/lumono/issues) or joining us in [Discord](https://discord.io/lumocash).
