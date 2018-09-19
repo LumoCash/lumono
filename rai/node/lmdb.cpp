@@ -800,8 +800,8 @@ void rai::mdb_store::initialize (rai::transaction const & transaction_a, rai::ge
 	assert (latest_v0_begin (transaction_a) == latest_v0_end ());
 	assert (latest_v1_begin (transaction_a) == latest_v1_end ());
 	block_put (transaction_a, hash_l, *genesis_a.open);
-	account_put (transaction_a, genesis_account, { hash_l, genesis_a.open->hash (), genesis_a.open->hash (), std::numeric_limits<rai::uint128_t>::max (), rai::seconds_since_epoch (), 1, rai::epoch::epoch_0 });
-	representation_put (transaction_a, genesis_account, std::numeric_limits<rai::uint128_t>::max ());
+	account_put (transaction_a, genesis_account, { hash_l, genesis_a.open->hash (), genesis_a.open->hash (), rai::genesis_amount, rai::seconds_since_epoch (), 1, rai::epoch::epoch_0 });
+	representation_put (transaction_a, genesis_account, rai::genesis_amount);
 	checksum_put (transaction_a, 0, 0, hash_l);
 	frontier_put (transaction_a, hash_l, genesis_account);
 }
