@@ -932,8 +932,6 @@ lmdb_max_dbs (128)
 			preconfigured_peers.push_back ("pbkp.lumofoundation.org");
 			preconfigured_peers.push_back ("lumo.augustoresende.com");
 			preconfigured_representatives.push_back (rai::account ("39946672CCC5CE9B1DC34A3D23969B038C2E1DA449EF155004F3A04312536753"));
-			state_block_parse_canary = rai::block_hash ("5F63E6EF4680F890B1A430C521E2F4AF19DCDF8844714C211AA3F97EA9CC7F14");
-			state_block_generate_canary = rai::block_hash ("5F63E6EF4680F890B1A430C521E2F4AF19DCDF8844714C211AA3F97EA9CC7F14");
 			// 2018-09-01 UTC 00:00 in unix time
 			// Technically, time_t is never defined to be unix time, but compilers implement it as such
 			generate_hash_votes_at = std::chrono::system_clock::from_time_t (1535760000);
